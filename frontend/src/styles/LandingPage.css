@@ -1,0 +1,147 @@
+/* General Styles */
+.landing-container {
+    background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .hero {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Vendor prefix for Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .cta-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Features Section */
+
+  .feature-section {
+    display: flex;
+    justify-content: center; /* Center-align all feature boxes */
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  
+  .feature {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature .icon {
+    font-size: 2rem;
+    color: #e52e71;
+  }
+  
+  .feature h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .feature p {
+    color: #ccc;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Mockup Section */
+  .mockup-section {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .mockup-section img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255, 138, 0, 0.3);
+  }
+  
+  /* Testimonials */
+  .testimonial-section {
+    margin: 60px auto;
+    max-width: 700px;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 2rem;
+    color: #ff8a00;
+  }
+  
+  .testimonial {
+    background: #1f1f1f;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .testimonial p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 10px;
+    color: #e52e71;
+    font-weight: bold;
+  }
+  
+  /* Final CTA */
+  .final-cta {
+    margin-top: 50px;
+  }
+  
+  .final-cta h2 {
+    font-size: 2rem;
+    color: white;
+  }
+  /*Buttons*/
+  .button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .join-btn {
+    background-color: #ff5722; /* Different color for Join Us */
+  }
+  
+
+
+  
