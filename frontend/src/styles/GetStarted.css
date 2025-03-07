@@ -1,49 +1,89 @@
 /* General Styles */
-.page-container {
-    background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .content {
-    max-width: 600px;
-  }
-  
-  .content h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
-    background-clip: text; /* Standard property */
-    -webkit-background-clip: text; /* Vendor prefix for Safari/Chrome */
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .content p {
-    font-size: 1.2rem;
-    color: #aaa;
-    margin-bottom: 20px;
-  }
-  
-  /* Button Styles */
-  .cta-btn {
-    margin-top: 20px;
-    padding: 12px 24px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(90deg, #e52e71, #ff8a00);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .cta-btn:hover {
-    opacity: 0.8;
-  }
-  
+.get-started-container {
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content */
+.intro-section {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Steps Section */
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;}
+
+.step {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.step h3 {
+  font-size: 1.4rem;
+  color: #ff8a00;
+}
+
+.step p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Button Section */
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.signup-btn,
+.login-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-btn {
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
+
+.login-btn {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+.signup-btn:hover,
+.login-btn:hover {
+  opacity: 0.8;
+}

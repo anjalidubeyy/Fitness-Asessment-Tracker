@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import "../styles/GetStarted.css"; 
+import "../styles/GetStarted.css";
 
 const GetStarted = () => {
   return (
@@ -18,24 +18,33 @@ const GetStarted = () => {
 
       <div className="steps-container">
         <div className="step">
-          <h3>1. Create Your Profile</h3>
+          <h3>Create Your Profile</h3>
           <p>Enter your details like age, weight, height, and fitness goals.</p>
         </div>
         <div className="step">
-          <h3>2. Choose Your Workout Plan</h3>
+          <h3>Choose Your Workout Plan</h3>
           <p>Personalized workout suggestions based on your preferences.</p>
         </div>
         <div className="step">
-          <h3>3. Track Your Progress</h3>
+          <h3>Track Your Progress</h3>
           <p>Analyze your performance and stay motivated!</p>
         </div>
       </div>
 
-      <Link to="/dashboard">
-        <motion.button className="start-btn" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-          Go to Dashboard
-        </motion.button>
-      </Link>
+      {/* New Buttons for Sign Up & Login */}
+      <div className="auth-buttons">
+        <Link to="/signup">
+          <motion.button className="signup-btn" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+            Sign Up
+          </motion.button>
+        </Link>
+
+        <Link to="/login">
+          <motion.button className="login-btn" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+            Login
+          </motion.button>
+        </Link>
+      </div>
     </div>
   );
 };

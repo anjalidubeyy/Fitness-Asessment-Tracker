@@ -1,0 +1,62 @@
+/* General Styles */
+.auth-container {
+    background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .auth-box h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .auth-box p {
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  
+  .auth-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .auth-box input::placeholder {
+    color: #ddd;
+  }
+  
+  .auth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+  }
+  
+  .auth-btn:hover {
+    opacity: 0.8;
+  }
+  
