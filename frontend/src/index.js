@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "../src/styles/GetStarted.css"; 
-import "../src/styles/JoinUs.css";
+import "../src/styles/ContactUs.css";
 
 
 

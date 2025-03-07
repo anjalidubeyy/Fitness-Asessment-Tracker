@@ -1,5 +1,5 @@
 /* General Styles */
-.join-us-container {
+.contact-us-container {
   background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
   color: white;
   text-align: center;
@@ -10,6 +10,7 @@
   justify-content: center;
 }
 
+/* Form Box Styling */
 .form-box {
   background: rgba(255, 255, 255, 0.1);
   padding: 40px;
@@ -17,8 +18,10 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 400px;
+  text-align: center;
 }
 
+/* Heading Text Gradient */
 .gradient-text {
   font-size: 2.5rem;
   font-weight: 700;
@@ -41,21 +44,29 @@ form {
   gap: 15px;
 }
 
-input {
+input,
+textarea {
   padding: 12px;
   font-size: 1rem;
   border: 1px solid #555;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
   color: white;
+  width: 100%;
 }
 
-input::placeholder {
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
   color: #ccc;
 }
 
 /* Button Styles */
-.join-btn {
+.contact-btn {
   padding: 12px 24px;
   font-size: 1rem;
   font-weight: bold;
@@ -67,17 +78,19 @@ input::placeholder {
   transition: all 0.3s ease;
 }
 
-.join-btn:hover {
+.contact-btn:hover {
   opacity: 0.8;
 }
 
-/* Link Styling */
-.login-link {
+/* Back Link Styling */
+.back-link {
   color: #ff8a00;
   text-decoration: none;
   font-weight: bold;
+  display: block;
+  margin-top: 15px;
 }
 
-.login-link:hover {
+.back-link:hover {
   text-decoration: underline;
 }
