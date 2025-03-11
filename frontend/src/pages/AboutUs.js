@@ -13,7 +13,6 @@ const About = () => {
           Unlike traditional fitness tracking apps, FAT goes beyond basic logging. Our AI-driven approach provides deep insights into workout efficiency, progress trends, and goal setting, ensuring users get the best out of their fitness routines.
         </p>
         <h2 className="gradient-text">Meet the Founders</h2>
-        <img src="/founder-photo.jpg" alt="the founders" className="founder-image"/>
         <div className="founder-list">
           <div className="founder-card">
             <h3>Anjali Dubey</h3>
